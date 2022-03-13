@@ -12,7 +12,7 @@ const UserSchema = new mongoose.Schema(
       require: true,
       unique: true,
     },
-    passwords: {
+    password: {
       type: String,
       require: true,
     },
@@ -28,4 +28,4 @@ const UserSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.export = mongoose.model("Users", UserSchema);
+module.exports = mongoose.model("Users", UserSchema);
