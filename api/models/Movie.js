@@ -25,6 +25,9 @@ const MovieSchema = new mongoose.Schema(
     video: {
       type: String,
     },
+    year: {
+      type: String,
+    },
     limit: {
       type: Number,
     },
